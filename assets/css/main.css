@@ -13,7 +13,7 @@ body {
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
-    color: #555;
+    color: #6D3D00;
     font-family: 'Nunito Sans', sans-serif
 }
 
@@ -33,7 +33,8 @@ section {
 
 h1 {
     margin: .67em 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    color: #6D3D00;
 }
 
 figure {
@@ -74,8 +75,8 @@ dfn {
 }
 
 mark {
-    background-color: #ff0;
-    color: #000
+    background-color: #FF6F00; /* Amber Red */
+    color: #F7F4EF; /* Off-White / Cream */
 }
 
 small {
@@ -216,10 +217,7 @@ template {
     display: none
 }
 
-/*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+
 @-webkit-keyframes fa-spin {
     0% {
         -webkit-transform: rotate(0deg);
@@ -4635,140 +4633,136 @@ template {
 .devicon-nodewebkit-line.colored,
 .devicon-nodewebkit-plain-wordmark.colored,
 .devicon-nodewebkit-plain.colored {
-    color: #3d3b47
+    color: #2C3E50; /* Cool Slate Blue - dark cool neutral */
 }
 
 .devicon-oracle-original.colored,
 .devicon-oracle-plain-wordmark.colored,
 .devicon-oracle-plain.colored {
-    color: #ea1b22
+    color: #FF6F00; /* Amber Red main pop */
 }
 
 .devicon-photoshop-line.colored,
 .devicon-photoshop-plain.colored {
-    color: #80b5e2
+    color: #F7F4EF; /* Off-White / Cream - light neutral */
 }
 
 .devicon-php-plain.colored {
-    color: #6181b6
+    color: #FF9F1C; /* Deep Gold accent */
 }
 
 .devicon-postgresql-plain-wordmark.colored,
 .devicon-postgresql-plain.colored {
-    color: #336791
+    color: #1B1B1B; /* Charcoal Black - deep neutral */
 }
 
 .devicon-python-plain-wordmark.colored,
 .devicon-python-plain.colored {
-    color: #ffd845
+    color: #FFB266; /* Soft peachy amber (lighter warm tone) */
 }
 
 .devicon-rails-plain-wordmark.colored,
 .devicon-rails-plain.colored {
-    color: #a62c46
+    color: #D72631; /* Slightly lighter orange */
 }
 
 .devicon-ruby-plain-wordmark.colored,
 .devicon-ruby-plain.colored {
-    color: #d91404
+    color: #FF6F00; /* Amber Red main pop */
 }
 
 .devicon-safari-line-wordmark.colored,
 .devicon-safari-line.colored,
 .devicon-safari-plain-wordmark.colored,
 .devicon-safari-plain.colored {
-    color: #1b88ca
+    color: #2C3E50; /* Cool Slate Blue */
 }
 
 .devicon-react-original-wordmark.colored,
 .devicon-react-original.colored,
 .devicon-react-plain-wordmark.colored,
 .devicon-react-plain.colored {
-    color: #61dafb
+    color: #FF9F1C; /* Deep Gold for a warm vibrant feel */
 }
 
 .devicon-redhat-original-wordmark.colored,
 .devicon-redhat-original.colored,
 .devicon-redhat-plain-wordmark.colored,
 .devicon-redhat-plain.colored {
-    color: #e93442
+    color: #FF6F00; /* Amber Red, main pop */
 }
 
 .devicon-redis-plain-wordmark.colored,
 .devicon-redis-plain.colored {
-    color: #d82c20
+    color: #D72631; /* Slightly lighter orange */
 }
 
 .devicon-sass-original.colored,
 .devicon-sass-plain-wordmark.colored,
 .devicon-sass-plain.colored {
-    color: #c69
+    color: #FFB266; /* A soft peachy amber (a lighter warm tone for contrast) */
 }
 
 .devicon-sequelize-original-wordmark.colored,
 .devicon-sequelize-original.colored,
 .devicon-sequelize-plain-wordmark.colored,
 .devicon-sequelize-plain.colored {
-    color: #3b4b72
+    color: #2C3E50; /* Cool Slate Blue - for a balancing cool tone */
 }
 
 .devicon-symfony-original-wordmark.colored,
 .devicon-symfony-original.colored,
 .devicon-symfony-plain-wordmark.colored,
 .devicon-symfony-plain.colored {
-    color: #1a171b
-}
-
-.devicon-travis-plain-wordmark.colored,
-.devicon-travis-plain.colored {
-    color: #bb2031
+    color: #1B1B1B; /* Charcoal Black - deep neutral */
 }
 
 .devicon-trello-plain-wordmark.colored,
 .devicon-trello-plain.colored {
-    color: #23719f
+    color: #FF6F00; /* Amber Red - main pop */
 }
 
 .devicon-twitter-original.colored,
 .devicon-twitter-plain.colored {
-    color: #1da1f2
+    color: #FF9F1C; /* Deep Gold - secondary accent */
 }
 
 .devicon-typescript-original.colored,
 .devicon-typescript-plain.colored {
-    color: #007acc
+    color: #2C3E50; /* Cool Slate Blue */
 }
 
 .devicon-ubuntu-plain-wordmark.colored,
 .devicon-ubuntu-plain.colored {
-    color: #dd4814
+    color: #D72631; /* Slightly lighter orange, between amber and gold */
 }
 
 .devicon-vim-plain.colored {
-    color: #179a33
+    color: #1B1B1B; /* Charcoal Black */
 }
 
 .devicon-windows8-original-wordmark.colored,
 .devicon-windows8-original.colored,
 .devicon-windows8-plain-wordmark.colored,
 .devicon-windows8-plain.colored {
-    color: #00adef
+    color: #F7F4EF; /* Off-White / Cream */
 }
 
 .devicon-wordpress-plain-wordmark.colored,
 .devicon-wordpress-plain.colored {
-    color: #494949
+    color: #2C3E50; /* Cool Slate Blue */
 }
 
 .devicon-yii-plain-wordmark.colored,
 .devicon-yii-plain.colored {
-    color: #0073bb
+    color: #FF9F1C; /* Deep Gold */
 }
 
 .devicon-zend-plain-wordmark.colored,
 .devicon-zend-plain.colored {
-    color: #68b604
+    color: #FF6F00; /* Amber Red */
 }
+
 
 article,
 aside,
@@ -4789,7 +4783,7 @@ strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: #333
+    color: #6D3D00;
 }
 
 h2 {
@@ -4821,11 +4815,11 @@ a img {
 }
 
 #particles-js {
-    background: #1488CC;
+    background: #FF6F00;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, #D72631, #FF6F00);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #D72631, #FF6F00);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     display: flex;
@@ -4857,7 +4851,7 @@ a img {
 }
 
 .header .site-title {
-    font-size: 35px;
+    font-size: 45px;
     display: block;
     line-height: 1;
     color: #fff;
@@ -4926,7 +4920,7 @@ a img {
 
 .header-icons .icon:active,
 .header-icons .icon:hover {
-    color: #1488CC;
+    color: #FFA000;
     background: #fff
 }
 
@@ -4967,7 +4961,7 @@ a img {
 .down .icon:hover,
 .footer a:active,
 .footer a:hover {
-    color: #4b5664
+    color: #FFA000
 }
 
 #about {
@@ -4995,6 +4989,14 @@ a img {
     justify-content: space-between;
 }
 
+.tech-icon {
+  width: clamp(48px, 5vw, 75px);   /* Responsive size */
+  height: clamp(48px, 5vw, 75px);  /* Keep square aspect */
+  object-fit: contain;             /* Scales images inside the box */
+  display: block;
+  margin: 0 auto 0.5rem auto;      /* Center icon, add space below */
+}
+
 .user p {
     font-size: 16px
 }
@@ -5008,7 +5010,8 @@ a img {
 
 .user-details {
     text-align: center;
-    margin: 5px auto
+    margin: 5px auto;
+    font-size: 18px;
 }
 
 #projects {
@@ -5027,7 +5030,7 @@ a img {
 }
 
 .user-projects {
-    margin: 20px auto
+    margin: 30px auto
 }
 
 .user-projects img {
@@ -5041,7 +5044,7 @@ a img {
 }
 
 .user-projects li {
-    color: #1488CC;
+    color: #FF6F00;
     font-size: 1.1rem
 }
 
@@ -5084,9 +5087,9 @@ a img {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #1488CC;
+    color: #FF6F00;
     background-color: transparent;
-    border: 1px solid #1488CC;
+    border: 1px solid #FF6F00;
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -5097,18 +5100,18 @@ a img {
 
 .project-link:active,
 .project-link:hover {
-    background-color: #5347a8;
-    border-color: #5347a8;
+    background-color: #FFA000;
+    border-color: #FF6F00;
     color: #fff;
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in
 }
 
 .footer {
-    background: #1488CC;
+    background: #FF6F00;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: -webkit-linear-gradient(to right, 90deg, #FF6F00 0%, #D72631 100%);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, 90deg, #FF6F00 0%, #D72631 100%);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 10px 0;
     margin-top: 100px;
@@ -5117,7 +5120,7 @@ a img {
 }
 
 .footer .love {
-    color: red
+    color: #FFA000
 }
 
 .footer a {
