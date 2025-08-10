@@ -4977,7 +4977,8 @@ a img {
 }
 
 .tech {
-    margin: 10px
+    margin: 10px;
+    display: grid;
 }
 
 .user {
@@ -4989,12 +4990,13 @@ a img {
     justify-content: space-between;
 }
 
-.tech-icon {
-  width: clamp(48px, 5vw, 75px);   /* Responsive size */
-  height: clamp(48px, 5vw, 75px);  /* Keep square aspect */
-  object-fit: contain;             /* Scales images inside the box */
+.tech-icon,
+.tech i {
+  width: clamp(48px, 5vw, 75px);
+  height: clamp(48px, 5vw, 75px);
+  object-fit: contain;
   display: block;
-  margin: 0 auto 0.5rem auto;      /* Center icon, add space below */
+  margin: 0 auto 0.5rem auto;
 }
 
 .user p {
